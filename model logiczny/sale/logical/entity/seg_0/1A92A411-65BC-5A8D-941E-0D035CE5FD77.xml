@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A92A411-65BC-5A8D-941E-0D035CE5FD77" name="Pietro">
+<createdBy>Michał</createdBy>
+<createdTime>2017-04-06 12:38:43 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numer" id="17AB6DEC-EBDA-7CD8-E8C4-78685C45C94C">
+<createdBy>Michał</createdBy>
+<createdTime>2017-04-06 12:39:42 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4731C8B-7F69-7F5A-ABB2-9448F5CFA33B" name="Pietro PK">
+<createdBy>Michał</createdBy>
+<createdTime>2017-04-06 12:39:48 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17AB6DEC-EBDA-7CD8-E8C4-78685C45C94C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

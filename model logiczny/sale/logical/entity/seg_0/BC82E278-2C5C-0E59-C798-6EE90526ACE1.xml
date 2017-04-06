@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC82E278-2C5C-0E59-C798-6EE90526ACE1" name="Rezerwacja jednorazowa">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:11:31 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A5214ABB-129F-F6CE-3AE7-BBC758E907EC</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributeInherType>All atributes</attributeInherType>
+</Entity>

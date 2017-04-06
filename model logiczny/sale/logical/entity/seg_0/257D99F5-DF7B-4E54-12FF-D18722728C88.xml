@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="257D99F5-DF7B-4E54-12FF-D18722728C88" name="Sala">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 12:27:46 UTC</createdTime>
+<generatorID>A22A9C3F-3752-F91C-B743-DC884DE1E61E</generatorID>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numer" id="3A3B7A17-3FE5-DD05-1553-2A7CBC7790B2">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 12:45:16 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ilosc_miejsc" id="6F65F25B-536A-8DB8-88B4-D08D4410CEC9">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 12:45:30 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rzutnik" id="C6A10F84-1A2A-59D2-10A7-29A001DB95DA">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 12:47:05 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wi-fi" id="A2A80876-81FC-72E2-4AAD-F0BF386D9D37">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 12:47:28 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulatwienia" id="A4751FEF-C003-95F9-1B95-0D7FAC7C983F">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 12:47:33 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numer1" id="61731F96-87A4-6441-7535-AE1C4F880C89">
+<createdBy>Michał</createdBy>
+<createdTime>2017-04-06 12:39:51 UTC</createdTime>
+<generatorID>CC911E86-084F-0F67-E6F0-CCD68FF2982E</generatorID>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<referedAttribute>17AB6DEC-EBDA-7CD8-E8C4-78685C45C94C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="735D9DF2-D189-6352-E087-0A4B065FF4F1" name="Sala PK">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 12:46:00 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A3B7A17-3FE5-DD05-1553-2A7CBC7790B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

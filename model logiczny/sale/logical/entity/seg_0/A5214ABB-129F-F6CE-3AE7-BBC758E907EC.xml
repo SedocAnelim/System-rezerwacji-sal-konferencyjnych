@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5214ABB-129F-F6CE-3AE7-BBC758E907EC" name="Rezerwacja">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:26:29 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rez" id="288D263D-F367-C284-30C5-FA826A8FE943">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:26:37 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liczba_osob" id="2B0BF345-0AE1-0C61-6A8A-87E2234315B3">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:26:41 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numer" id="5C54A040-363D-1429-5481-289F99FC8269">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:27:36 UTC</createdTime>
+<generatorID>DC276455-3487-1F08-8841-DF583C237F74</generatorID>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<referedAttribute>3A3B7A17-3FE5-DD05-1553-2A7CBC7790B2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dlugosc" id="31A3157F-F4A3-6A34-99AB-1CADEA612F26">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:33:15 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start" id="D193D926-2CD2-13AB-48E5-97E350C8E035">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:55:24 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wi-fi" id="34E6BAE7-F669-F3CC-7D1B-479BFF35CD04">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:57:16 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rzutnik" id="6A40CAA6-BE58-37BD-64B8-7E79903D6B9F">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:57:23 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulatwienia" id="2C3B03CA-8BBE-CB47-15CB-E95A1FF2A235">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:57:32 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="napoje" id="A4440254-C10D-2DF6-D19C-76EA2B15C8E3">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:57:40 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CE7A35D-8337-852B-9948-C5055BA78F83" name="Rezerwacja PK">
+<createdBy>Michał</createdBy>
+<createdTime>2017-03-30 13:27:12 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>288D263D-F367-C284-30C5-FA826A8FE943</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

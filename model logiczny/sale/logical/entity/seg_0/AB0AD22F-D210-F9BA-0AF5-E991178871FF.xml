@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB0AD22F-D210-F9BA-0AF5-E991178871FF" name="Elementarna">
+<createdBy>Michał</createdBy>
+<createdTime>2017-04-06 12:00:29 UTC</createdTime>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>257D99F5-DF7B-4E54-12FF-D18722728C88</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numer" id="A17A2D19-4A82-A713-7F10-17EC00EA48A6">
+<createdBy>Michał</createdBy>
+<createdTime>2017-04-06 12:19:30 UTC</createdTime>
+<generatorID>F5DC858D-3E22-37F6-C286-8B155E67D5DD</generatorID>
+<ownerDesignName>sale</ownerDesignName>
+<engineerTo>
+<item key="478C68B6-BD43-0BC6-8025-5F71907FE43D" value="true"/>
+</engineerTo>
+<referedAttribute>3A3B7A17-3FE5-DD05-1553-2A7CBC7790B2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
